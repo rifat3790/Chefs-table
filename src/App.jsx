@@ -7,8 +7,10 @@ function App() {
 
   return (
     <>
+      <div className="container mx-auto">
       <Navbar></Navbar>
       <Banner></Banner>
+      </div>
       
     </>
   )
