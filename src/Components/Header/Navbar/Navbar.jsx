@@ -43,7 +43,7 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <a className="btn btn-ghost text-3xl">Recipe Calories</a>
+          <a className="btn btn-ghost text-xl md:text-2xl lg:text-3xl">Recipe Calories</a>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
@@ -63,7 +63,7 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <div className="relative max-w-40 md:max-w-64 flex items-center">
+          <div className="relative max-w-40 md:max-w-64 md:flex hidden items-center">
           <input
             type="text"
             placeholder=" Search"
