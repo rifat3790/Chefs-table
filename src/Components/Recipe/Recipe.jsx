@@ -3,8 +3,7 @@ import { IoMdTime } from "react-icons/io";
 import { FaFireAlt } from "react-icons/fa";
 
 
-const Recipe = ({recipe}) => {
-    console.log(recipe);
+const Recipe = ({recipe, handleCookRecipe}) => {
     const {ingredients, recipe_img, recipe_name, short_description, recipe_id, preparing_time, calories} = recipe;
     return (
         <div>
@@ -37,7 +36,7 @@ const Recipe = ({recipe}) => {
         </div>
     </div>
     <div className="card-actions">
-      <button className="btn bg-[#0BE58A] rounded-full">Want to Cook</button>
+      <button onClick={()=>handleCookRecipe(recipe)} className="btn bg-[#0BE58A] rounded-full">Want to Cook</button>
     </div>
   </div>
 </div>
