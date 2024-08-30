@@ -1,0 +1,35 @@
+[
+    {
+        "recipe_img": "https://i.ibb.co/xC3BKvp/Rectangle-20170-1.png",
+        "recipe_id": "rec001",
+        "recipe_name": "Spicy Chicken Tacos",
+        "short_description": "Delicious spicy chicken tacos with a hint of lime and cilantro.",
+        "ingredients": [
+          "Chicken breast",
+          "Taco shells",
+          "Lime",
+          "Cilantro",
+          "Spicy seasoning",
+          "Sour cream"
+        ],
+        "preparing_time": 25,
+        "calories": 320
+      },
+      {
+        "recipe_img": "https://i.ibb.co/gSpS4jP/Rectangle-20170.png",
+        "recipe_id": "rec002",
+        "recipe_name": "Vegan Buddha Bowl",
+        "short_description": "A nutritious and colorful vegan Buddha bowl packed with fresh veggies.",
+        "ingredients": [
+          "Quinoa",
+          "Avocado",
+          "Chickpeas",
+          "Spinach",
+          "Carrots",
+          "Tahini dressing"
+        ],
+        "preparing_time": 30,
+        "calories": 450
+      }
+      
+]
